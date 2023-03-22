@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Submit Stack') {
             steps {
-            sh "aws cloudformation deploy --template-file template-s3.json --stack-name tata"
+            sh "aws cloudformation deploy --template-file monthe-s3.json --stack-name tata"
               }
              }
             }
